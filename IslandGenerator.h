@@ -3,6 +3,9 @@
 #include <time.h>
 #include <stdlib.h>
 #include<bits/stdc++.h>
+
+using namespace std;
+
 class IslandGenerator
 {
 public:
@@ -21,4 +24,3 @@ public:
 		return res;
 	}
 };
-
