@@ -27,6 +27,7 @@ public:
             return;
         used[x][y] = 1;
 
+        printMatrix(x, y);
 
         if (isValid(x - 1, y))
             goMatrix(x - 1, y);
@@ -66,7 +67,7 @@ public:
 
         //printMatrix();
         //return 1;
-       
+
         int res = 0;
 
         for (int i = 0; i < m.size(); i++) {
